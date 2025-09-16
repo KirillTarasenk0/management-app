@@ -1,0 +1,15 @@
+parameters:
+  # Path to google authentication config
+  auth.path: '%kernel.project_dir%/config/client_secret.json'
+
+  # Scopes for access to google services
+  auth.scopes:
+    - 'https://www.googleapis.com/auth/plus.login'
+    - 'https://www.googleapis.com/auth/userinfo.email'
+    - 'https://www.googleapis.com/auth/userinfo.profile'
+    - 'https://www.googleapis.com/auth/plus.me'
+
+  # Type of access
+  auth.access_type: 'offline'
+
+services:

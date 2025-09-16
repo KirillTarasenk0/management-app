@@ -14,5 +14,19 @@ Here’s a snapshot of the main stack:
 
 It’s not something I maintain as a public service, but it’s a project I continue to refine in my spare time—adding new features, exploring different patterns, and using it as a playground for testing ideas and improving my skills.
 
+Installation:
+
+- git clone https://github.com/KirillTarasenk0/management-app.git
+
+- cd management-app
+
+- make install
+
+- make start
+
+- make terminal
+
+- composer install
+
 Best regards,
 Kirill
